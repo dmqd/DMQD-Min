@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>jQuery旅行者竖直时间轴代码</title>
-
 <script src="./lib/jquery.js"></script>
 
 <style>
@@ -157,7 +157,7 @@ img {
 .timeline__item__content {
   width: 80%;
   background: #fff;
-  padding: 20px 30px;
+  padding: 1.5em 1.5em;
   border-radius: 6px;
   float: right;
   -webkit-transition: all .3s ease-out;
@@ -167,7 +167,7 @@ img {
   .timeline__item__content{
     width: 40%;
     float: inherit;
-    padding: 30px 40px;
+    padding: 1.5em 1.5em;
   }
 }
 .timeline__item__content::before {
@@ -229,10 +229,14 @@ img {
 .site-footer__text__link {
   color: #8287a9;
 }
+.timeline__item__content__description {
+  font-size: .9rem;
+  line-height: 1.5em;
+}
 .timeline__item__content__description img{
-  width: 260px;
+  width: 300px;
   margin-right: 1em;
-  margin-bottom: 1em;
+  margin-bottom: .3em;
   float: left;
 }
 .clearfix::after {
