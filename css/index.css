@@ -24,6 +24,7 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0;
+  position: relative;
 }
 
 body {
@@ -39,6 +40,10 @@ body {
 
 #badge {
   width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 a {
