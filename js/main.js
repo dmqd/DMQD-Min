@@ -46,7 +46,7 @@ html{
 }
 /* 字体好像有点小，放大一点 */
 body {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 /* 我需要一点代码高亮 */
 
