@@ -31,12 +31,18 @@ var css1 = `/*
  * 大家好，我们是代码全队
  * 只用文字来介绍显得有点单调
  * 我就用代码来介绍吧
- * 先写一些样式
+ * 先写一些样式美化一下，请稍等片刻
  */
 
 *{
-  transition: all 1s;
+  transition: all .8s;
 }
+
+/* 字体好像有点小，放大一点 */
+body {
+  font-size: 1.3rem;
+}
+
 html{
   background: #eee;
 }
@@ -44,10 +50,7 @@ html{
   border: 1px solid #aaa;
   padding: 16px;
 }
-/* 字体好像有点小，放大一点 */
-body {
-  font-size: 1.3rem;
-}
+
 /* 我需要一点代码高亮 */
 
 .token.selector{ color: #690; }

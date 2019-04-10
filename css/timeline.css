@@ -45,9 +45,9 @@ h1.site-header__title {
   position: absolute;
   top: 0;
   left: 10%;
-  width: 4px;
+  width: 6px;
   height: 100%;
-  background: url("../img/gold-bck.jpg");
+  background: rgb(255, 105, 180,0.5);
 }
 @media (min-width: 800px){
   .timeline::before{
@@ -67,15 +67,15 @@ h1.site-header__title {
 .timeline__item:nth-child(2n) .timeline__item__content {
   float: right;
 }
-/* .timeline__item:nth-child(2n) .timeline__item__content::before {
+.timeline__item:nth-child(2n) .timeline__item__content::before {
   content: '';
   right: 40%;
-} */
-/* @media (min-width: 800px){
+}
+@media (min-width: 800px){
   .timeline__item:nth-child(2n) .timeline__item__content::before{
     left: inherit;
   }
-} */
+}
 .timeline__item:nth-child(2n) .timeline__item__content__date {
   background-color: #b292c5;
 }
@@ -96,9 +96,9 @@ h1.site-header__title {
 .timeline__item-bg:nth-child(2n) .timeline__item__content {
   background-color: rgb(198, 219, 238);
 }
-/* .timeline__item-bg:nth-child(2n) .timeline__item__content::before {
+.timeline__item-bg:nth-child(2n) .timeline__item__content::before {
   background-color: #b292c5;
-} */
+}
 .timeline__item-bg:nth-child(2n) .timeline__item__content__description {
   color: rgb(80 , 80, 80);
 }
@@ -108,9 +108,9 @@ h1.site-header__title {
 .timeline__item-bg .timeline__item__content {
   background-color: rgba(228,1,24,0.7);
 }
-/* .timeline__item-bg .timeline__item__content::before {
+.timeline__item-bg .timeline__item__content::before {
   background-color: #65adb7;
-} */
+}
 .timeline__item-bg .timeline__item__content__description {
   color: #fff;
 }
@@ -155,26 +155,26 @@ h1.site-header__title {
     padding: 1.5em 1.5em;
   }
 }
-/* .timeline__item__content::before {
+.timeline__item__content::before {
   content: '';
   position: absolute;
   left: 10%;
   background: #8d94b1;
   top: 20px;
   width: 10%;
-  height: 4px;
+  height: 5px;
   z-index: -1;
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
-} */
-/* @media (min-width: 800px){
+}
+@media (min-width: 800px){
   .timeline__item__content::before{
     left: 40%;
     top: 30px;
-    height: 4px;
+    height: 5px;
     margin-top: -2px;
   }
-} */
+}
 .timeline__item__content__date {
   margin: 0;
   padding: 8px 12px;
