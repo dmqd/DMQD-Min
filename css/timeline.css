@@ -8,7 +8,7 @@ body {
 }
 
 img {
-  max-width: 100%;
+  max-width: 1000%;
   height: auto;
 }
 h1.site-header__title {
@@ -56,7 +56,7 @@ h1.site-header__title {
   }
 }
 .timeline__item {
-  margin-bottom: 100px;
+  margin-bottom: 12px;
   position: relative;
 }
 .timeline__item::after{
@@ -142,7 +142,7 @@ h1.site-header__title {
 .timeline__item__content {
   width: 80%;
   background: rgba(252,226,30,0.3);
-  padding: 1.5em 1.5em;
+  padding: 0.5em 1.5em;
   border-radius: 6px;
   float: right;
   -webkit-transition: all .3s ease-out;
@@ -152,7 +152,7 @@ h1.site-header__title {
   .timeline__item__content{
     width: 40%;
     float: inherit;
-    padding: 1.5em 1.5em;
+    padding: 0.5em 1.5em;
   }
 }
 .timeline__item__content::before {
@@ -192,7 +192,7 @@ h1.site-header__title {
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
-  color: white;
+  color: rgb( 105,105,105)
 }
 @media (min-width: 800px){
   .timeline__item__content__description{
@@ -219,7 +219,7 @@ h1.site-header__title {
   line-height: 1.5em;
 }
 .timeline__item__content__description img{
-  width: 300px;
+  width: 205px;
   margin-right: 1em;
   margin-bottom: .3em;
   float: left;
