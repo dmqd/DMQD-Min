@@ -44,7 +44,7 @@ body {
 }
 
 html{
-  background: #eee;
+  background: rgb(254,250,239);
 }
 #code{
   border: 1px solid #aaa;
@@ -55,6 +55,7 @@ html{
 
 .token.selector{ color: #690; }
 .token.property{ color: #905; }
+
 
 /* 加一个呼吸效果 */
 
@@ -96,12 +97,17 @@ var md = `
 - 倪浩敏
 - 曾宝浩
 
-## 网页介绍
-- 响应式页面
+## 网页内容
+1. 回顾祖国70周年光辉历史
+2. 绽放广工创新风采
+
+## 网页特点
+- 采用响应式开发技术
 - 添加了动画过渡等效果提高用户体验
+- 进行了代码混淆，保证代码安全性
 - 进行了代码压缩，提高了网页加载速度
 
-
+<a class="btn" href="./index.html">返回</a>
 `
 let css3 = `
 /*

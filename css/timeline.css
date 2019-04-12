@@ -224,6 +224,32 @@ h1.site-header__title {
   margin-bottom: .3em;
   float: left;
 }
+a.btn {
+	text-decoration: none;
+	color: #606266;
+	margin-left: 5px;
+	background: rgba(255, 255, 255, .2);
+	padding: 5px 12px 5px 12px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #dcdfe6;
+  -webkit-transition: .1s;
+  transition: .1s;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 14px;
+  display: inline-block;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-appearance: none !important;
+  text-align: center;
+}
+
+.btn:hover {
+  border: 1px solid rgb(198, 226, 255);
+  background-color: rgb(231, 240, 250);
+  color: rgba(64, 158, 255, .8);
+}
 .clearfix::after {
   content: '';
   display: block;
