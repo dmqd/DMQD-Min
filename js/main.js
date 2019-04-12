@@ -1,30 +1,30 @@
 /*把code写到#code和style标签里*/
 function writeCss(prefix, code, fn) {
-  let domCode = document.querySelector('#code')
-  let n = 0
+  let domCode = document.querySelector('#code');
+  let n = 0;
   let id = setInterval(() => {
-    n += 1
+    n += 1;
     domCode.innerHTML = Prism.highlight(prefix + code.substring(0, n), Prism.languages.css);
-    styleTag.innerHTML = prefix + code.substring(0, n)
-    domCode.scrollTop = domCode.scrollHeight
+    styleTag.innerHTML = prefix + code.substring(0, n);
+    domCode.scrollTop = domCode.scrollHeight;
     if (n >= code.length) {
-      window.clearInterval(id)
-      fn && fn.call()
+      window.clearInterval(id);
+      fn && fn.call();
     }
-  }, 70)
-}
+  }, 70);
+};
 function writeMarkdown(markdown, fn) {
-  let domPaper = document.querySelector('#paper>.content')
-  let n = 0
+  let domPaper = document.querySelector('#paper>.content');
+  let n = 0;
   let id = setInterval(() => {
-    n += 1
-    domPaper.innerHTML = markdown.substring(0, n)
-    domPaper.scrollTop = domPaper.scrollHeight
+    n += 1;
+    domPaper.innerHTML = markdown.substring(0, n);
+    domPaper.scrollTop = domPaper.scrollHeight;
     if (n >= markdown.length) {
-      window.clearInterval(id)
-      fn && fn.call()
+      window.clearInterval(id);
+      fn && fn.call();
     }
-  }, 35)
+  }, 35);
 }
 
 var css1 = `/* 
@@ -77,7 +77,7 @@ html{
 }
 
 /* 请看右边~ */
-`
+`;
 
 var css2 = `
 /* 接下来我们用一个优秀的库 marked.js
